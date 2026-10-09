@@ -1,0 +1,89 @@
+{
+  "files": [
+    {
+      "action": "Replace",
+      "path": "scripts/meter_to_transformer/data_cleaning/standardize_inputs.py",
+      "sha256": "1118260e0536ce80155fffd8c4c134187a54fd44fa94fdfcf8b6aa6e219bf95b"
+    },
+    {
+      "action": "Replace",
+      "path": "scripts/meter_to_transformer/data_cleaning/validate_coordinates.py",
+      "sha256": "6bc4bcb5e48d044a034ac7b64a383113064c90ecd290eecdd70e8649a6f10b05"
+    },
+    {
+      "action": "Replace",
+      "path": "scripts/meter_to_transformer/stages/run_meter_grouping.py",
+      "sha256": "f5b6e5c9430a57606cbba22c57a47563d5050504eecc72ae7020f86e4d98457a"
+    },
+    {
+      "action": "Replace",
+      "path": "scripts/meter_to_transformer/stages/run_transformer_candidates.py",
+      "sha256": "d49655a5da69293a7ca4b5e4ffd27b32115b2b7158ef500bc44a66112b6f694e"
+    },
+    {
+      "action": "Replace",
+      "path": "scripts/meter_to_transformer/validation/validate_transformer_candidates.py",
+      "sha256": "8aeefd2aa9d3c8f21660bc937775274a827534462dd559d455a62c793807c376"
+    },
+    {
+      "action": "Replace",
+      "path": "scripts/run_meter_to_transformer_pipeline.py",
+      "sha256": "0eb7fb2a3fd3f49d90c60adbf1614985bedfc2bfab421f9144c7e5cd1b099126"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/candidates/transformer_candidates.py",
+      "sha256": "89401d0d802b61472728c18d042f4b20f2dfced4b9b5321324aaf974bdda5520"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/config.py",
+      "sha256": "d2625ebb6779261cc9b5c1d11d8aebf6e6b94aa3a9aaebc9f121df53aedadcef"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/db/db_AMI.py",
+      "sha256": "2042e695209f6d376b86b16a78108ba46bdd24c095d2ff08d4ffc5fe26e603a1"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/history/adam_history.py",
+      "sha256": "5f5f5f1b1549be9f14035af50260603116ca7668d55019d843580d57b3b4a391"
+    },
+    {
+      "action": "Add",
+      "path": "src/mtx/history/candidate_history.py",
+      "sha256": "793bafbd2fe5cf76784f07b29b514589f9736f2a7cfa6bffeb176771bb473a91"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/ingestion/adam_cache.py",
+      "sha256": "60c2a9c33a2574a2d3b3c456ae26787e22e8e6d5a5408ee0448519f8f072aaf4"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/ingestion/itron_group_cache.py",
+      "sha256": "9577e2ca20dd99eec8b5bd294ca8a1c43a837e3f054f5b8a2a34c86a4f43cfb8"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/ingestion/transformer_cache.py",
+      "sha256": "6e3cc11e22914d6f7d3d85b389d5e2a17033dd672569fbd46c5246bc4773875f"
+    },
+    {
+      "action": "Replace",
+      "path": "src/mtx/run_config.py",
+      "sha256": "018eb5c956a4df9492afa319578fadace02f5ef20b17f208fcd6d04408b52d52"
+    },
+    {
+      "action": "Add",
+      "path": "src/mtx/utils/daily_cache.py",
+      "sha256": "6e1658815895598e1fe3ba42df5785931ff3a947555b22d1ddfd4b13aa4190e2"
+    },
+    {
+      "action": "Add",
+      "path": "tests/test_m2t_daily_contract.py",
+      "sha256": "b66c97da40473eb8a9bcfd55bb85d3c8027a0ce091edebb822a484b5ddf961ec"
+    }
+  ]
+}
